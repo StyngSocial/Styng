@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.cortado {
+  font-family: "Cortado";
+}
