@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
 
 import Concept from "../assets/styng-concept.png";
 import Web2 from "../assets/web2.png";
@@ -8,7 +8,7 @@ import Web3 from "../assets/web3.png";
 import ExecSum from "../assets/icons/executive-summary.svg";
 import Whitepaper from "../assets/icons/whitepaper.svg";
 
-import Header from "../components/Header";
+import Header from "../components/Header/";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
         <title>Styng Social | Resources</title>
       </Head>
       <Header />
-      <Container className="landing">
+      <Container className={styles.landing}>
         <Row className="justify-content-evenly align-items-center">
           <Col lg={6} md={12}>
             <h1 className="display-4 cortado">
@@ -41,7 +41,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <Container className="solutions" id="about">
+      <Container className={styles.solutions} id="about">
         <Row className="justify-content-center align-items-evenly">
           <Col lg={6} md={12}>
             <h2 className="primary-color">Social media is exploitive</h2>
@@ -90,7 +90,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <Container className="business">
+      <Container className={styles.business}>
         <Row className="jusitfy-content-center">
           <Col lg={12}>
             <h2 className="primary-color">Breaking the relationship</h2>
@@ -104,7 +104,7 @@ export default function Home() {
             </p>
           </Col>
         </Row>
-        <Row className="web-gen">
+        <Row className={styles.webGen}>
           <Col lg={6} md={12} className="text-center">
             <h3 className="primary-text">Web 2.0</h3>
             <Image src={Web2} width={500} height={500}></Image>
@@ -115,7 +115,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <Container className="research" id="whitepaper">
+      <Container className={styles.research} id="whitepaper">
         <Row className="justify-content-evenly">
           <Col lg={4} md={12} className="text-center">
             <Image src={ExecSum} height={75} width={75}></Image>
@@ -153,7 +153,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <footer className="footer">
+      <footer className={styles.footer}>
         <hr className="my-8" />
         <Row className="justify-content-end">
           <Col lg={2}>Instagram</Col>
