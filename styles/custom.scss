@@ -1,11 +1,22 @@
+// Global variables
 $primary: #93d1e0;
 $secondary: #184752;
-$light: #dde4e5;
+$tint: #17444f;
 $dark: #0a1c21;
-
+$light: #dde4e5;
+$body-bg: $dark;
+$body-color: $primary;
 $font-family-base: "FreightSans Pro";
 
-$navbar-dark-color: $light;
-$navbar-dark-hover-color: $primary;
+// Accordion styling
+$accordion-color: $light;
+$accordion-bg: #0e292f;
+$accordion-button-active-bg: $secondary;
+$accordion-button-focus-border-color: $secondary;
+$accordion-button-focus-box-shadow: none;
+
+// Card styling
+$card-bg: $dark;
+$card-color: $light;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
