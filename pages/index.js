@@ -8,16 +8,14 @@ import Web3 from "../assets/web3.png";
 import ExecSum from "../assets/icons/executive-summary.svg";
 import Whitepaper from "../assets/icons/whitepaper.svg";
 
-import Header from "../components/Header/";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Styng Social | Resources</title>
+        <title>Styng Social | monetizing clout.</title>
       </Head>
-      <Header />
       <Container className={styles.landing}>
         <Row className="justify-content-evenly align-items-center">
           <Col lg={6} md={12}>

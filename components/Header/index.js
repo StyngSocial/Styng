@@ -18,8 +18,8 @@ const Header = () => {
           <Navbar.Toggle aria-controls="styng-nav" />
           <Navbar.Collapse id="styng-nav" className="justify-content-end">
             <Nav>
-              <Nav.Link href="#about">About</Nav.Link>
-              <Nav.Link href="#whitepaper">Whitepaper</Nav.Link>
+              <Nav.Link href="/#about">About</Nav.Link>
+              <Nav.Link href="/#whitepaper">Whitepaper</Nav.Link>
               <Link href="/resources" passHref>
                 <Nav.Link>Resources</Nav.Link>
               </Link>
