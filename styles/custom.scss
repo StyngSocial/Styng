@@ -5,14 +5,13 @@ $tint: #17444f;
 $dark: #0a1c21;
 $light: #dde4e5;
 $body-bg: $dark;
-$body-color: $primary;
+$body-color: $light;
 $font-family-base: "FreightSans Pro";
 
 // Accordion styling
 $accordion-color: $light;
 $accordion-bg: #0e292f;
-$accordion-button-active-bg: $secondary;
-$accordion-button-focus-border-color: $secondary;
+$accordion-button-focus-border-color: $tint;
 $accordion-button-focus-box-shadow: none;
 
 // Card styling
