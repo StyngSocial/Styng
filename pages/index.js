@@ -8,7 +8,7 @@ import Web3 from "../assets/web3.png";
 import ExecSum from "../assets/icons/executive-summary.svg";
 import Whitepaper from "../assets/icons/whitepaper.svg";
 
-import Navigator from "../components/Navigator";
+import Header from "../components/Header";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       <Head>
         <title>Styng Social | Resources</title>
       </Head>
-      <Navigator />
+      <Header />
       <Container className="landing">
         <Row className="justify-content-evenly align-items-center">
           <Col lg={6} md={12}>
@@ -147,11 +147,7 @@ export default function Home() {
               token distribution, implementation, and execution.
             </p>
 
-            <a
-              className="btn btn-primary btn-md disabled"
-              type="button"
-              id="whitepaper"
-            >
+            <a className="btn btn-primary btn-md disabled" type="button">
               Realeasing in April
             </a>
           </Col>
