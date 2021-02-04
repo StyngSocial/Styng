@@ -1,6 +1,6 @@
 import React from "react";
-import AccordionItem from "../components/AccordionItem/AccordionItem";
-import Resource from "../components/Resource/Resource";
+import AccordionItem from "../components/AccordionItem/";
+import Resource from "../components/Resource/";
 import { Accordion } from "react-bootstrap";
 
 import resourceData from "../data/resources.json";
