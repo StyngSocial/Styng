@@ -19,31 +19,39 @@ export default function Home() {
       </Head>
       <Navigator />
       <Container className="landing">
-        <Row>
-          <Col>
-            <h1>broken</h1>
-            <p>Lorem</p>
+        <Row className="justify-content-evenly align-items-center">
+          <Col lg={6} md={12}>
+            <h1 className="display-4 cortado">
+              social media is broken;
+              <br />
+              let's fix it.
+            </h1>
+            <p>
+              A social media platform built for the user. Styng bridges modern
+              technologies with social media. Enabling users to generate income
+              for using and engaging on the platform.
+            </p>
             <hr className="my-4" />
-            <Button variant="primary" size="large">
+            <Button variant="primary" size="lg" href="mailto:ben@styng.social">
               Sign Up
             </Button>
           </Col>
-          <Col>
+          <Col lg={4} md={12} className="auto text-center">
             <Image src={Concept} height={500} width={257}></Image>
           </Col>
         </Row>
       </Container>
-      <Container className="solutions">
-        <Row>
-          <Col>
+      <Container className="solutions" id="about">
+        <Row className="justify-content-center align-items-evenly">
+          <Col lg={6} md={12}>
             <h2 className="primary-color">Social media is exploitive</h2>
             <hr className="my-4" />
             <li className="h4">Broken Business Model</li>
             <p>
-              Top social media platforms generate >98% of their revenue from
-              user data collection giving them trillions in market cap. Users
-              receive no benefit or consent for their personal information to be
-              sold.
+              Top social media platforms generate more than 98% of their revenue
+              from user data collection giving them trillions in market cap.
+              Users receive no benefit or consent for their personal information
+              to be sold.
             </p>
             <li className="h4">Behavior Changing</li>
             <p>
@@ -56,7 +64,7 @@ export default function Home() {
               chambers, stripping the ability to empathize and communicate.
             </p>
           </Col>
-          <Col>
+          <Col lg={6} md={12}>
             <h2 className="primary-color">Our solution</h2>
             <hr className="my-4" />
             <p>
@@ -83,8 +91,8 @@ export default function Home() {
         </Row>
       </Container>
       <Container className="business">
-        <Row>
-          <Col>
+        <Row className="jusitfy-content-center">
+          <Col lg={12}>
             <h2 className="primary-color">Breaking the relationship</h2>
             <hr className="my-4" />
             <p>
@@ -96,20 +104,20 @@ export default function Home() {
             </p>
           </Col>
         </Row>
-        <Row>
-          <Col>
+        <Row className="web-gen">
+          <Col lg={6} md={12} className="text-center">
             <h3 className="primary-text">Web 2.0</h3>
             <Image src={Web2} width={500} height={500}></Image>
           </Col>
-          <Col>
+          <Col lg={6} md={12} className="text-center">
             <h3 className="primary-text">Web 3.0</h3>
             <Image src={Web3} height={500} width={500}></Image>
           </Col>
         </Row>
       </Container>
-      <Container className="research">
-        <Row>
-          <Col>
+      <Container className="research" id="whitepaper">
+        <Row className="justify-content-evenly">
+          <Col lg={4} md={12} className="text-center">
             <Image src={ExecSum} height={75} width={75}></Image>
             <h2 className="primary-color">Executive Summary</h2>
             <hr className="my-4" />
@@ -120,7 +128,7 @@ export default function Home() {
               model, and projections.
             </p>
             <a
-              className="btn btn-primary btn-md"
+              className="btn btn-primary btn-md disabled"
               href="../assets/papers/Business Plan.pdf"
               target="_blank"
               id="execSum"
@@ -128,7 +136,7 @@ export default function Home() {
               Executive Summary
             </a>
           </Col>
-          <Col>
+          <Col lg={4} md={12} className="text-center whitepaper">
             <Image src={Whitepaper} height={75} width={75}></Image>
             <h2 className="primary-color">Whitepaper</h2>
             <hr className="my-4" />
@@ -139,21 +147,23 @@ export default function Home() {
               token distribution, implementation, and execution.
             </p>
 
-            <a className="btn btn-primary btn-md" type="button" id="whitepaper">
+            <a
+              className="btn btn-primary btn-md disabled"
+              type="button"
+              id="whitepaper"
+            >
               Realeasing in April
             </a>
           </Col>
         </Row>
       </Container>
-
       <footer className="footer">
-        <Container>
-          <Row>
-            <Col>Instagram</Col>
-            <Col>LinkedIn</Col>
-            <Col>Medium</Col>
-          </Row>
-        </Container>
+        <hr className="my-8" />
+        <Row className="justify-content-end">
+          <Col lg={2}>Instagram</Col>
+          <Col lg={2}>LinkedIn</Col>
+          <Col lg={2}>Medium</Col>
+        </Row>
       </footer>
     </>
   );

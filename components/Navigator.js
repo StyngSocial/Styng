@@ -11,14 +11,11 @@ const Navigator = () => {
           <Link href="/" passHref>
             <Navbar.Brand className="cortado">styng social</Navbar.Brand>
           </Link>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse
-            id="basic-navbar-nav"
-            className="justify-content-end"
-          >
-            <Nav className="mr-auto">
-              <Nav.Link href="#">About</Nav.Link>
-              <Nav.Link href="#">Whitepaper</Nav.Link>
+          <Navbar.Toggle aria-controls="styng-nav" />
+          <Navbar.Collapse id="styng-nav" className="justify-content-end">
+            <Nav>
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#whitepaper">Whitepaper</Nav.Link>
               <Link href="/resources" passHref>
                 <Nav.Link>Resources</Nav.Link>
               </Link>

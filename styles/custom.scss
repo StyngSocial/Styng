@@ -20,3 +20,118 @@ $card-bg: $dark;
 $card-color: $light;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.cortado {
+  font-family: "Cortado";
+}
+
+.landing,
+.solutions,
+.business,
+.research {
+  color: #93d1e0;
+  margin-top: 150px;
+  p {
+    color: #dde4e5;
+  }
+  @media (max-width: 992px) {
+    margin-top: 75px;
+  }
+}
+
+nav {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: $light;
+  .navbar-brand {
+    margin: 0;
+    font-size: 2rem;
+    @media (max-width: 992px) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.landing {
+  margin-top: 75px;
+  p {
+    font-size: 1.5rem;
+  }
+  img {
+    height: 500px;
+  }
+  @media (max-width: 992px) {
+    margin-top: 20px;
+    img {
+      margin-top: 25px;
+      height: 350px;
+    }
+    h1 {
+      font-size: 3.5rem;
+      @media (max-width: 500px) {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+.solutions {
+  li {
+    list-style: none;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+.business {
+  p {
+    font-size: 1.5rem;
+    @media (max-width: 992px) {
+      font-size: 1.25rem;
+    }
+  }
+  img {
+    height: 500px;
+    @media (max-width: 575px) {
+      height: 300px;
+    }
+  }
+
+  .web-gen {
+    margin-top: 50px;
+  }
+}
+
+.research {
+  margin-bottom: 200px;
+  .icon {
+    height: 75px;
+    margin-bottom: 25px;
+  }
+  p {
+    font-size: 1.25rem;
+  }
+  #execSum {
+    @media (max-width: 992px) {
+      margin-top: 0px;
+    }
+  }
+  #whitepaper {
+    @media (max-width: 992px) {
+      margin-top: 75px;
+    }
+  }
+  @media (max-width: 992px) {
+    margin-bottom: 100px;
+  }
+}
+
+.footer {
+  color: #dde4e5;
+  margin-bottom: 15px;
+  img {
+    height: 20px;
+  }
+}
