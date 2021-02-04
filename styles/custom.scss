@@ -1,0 +1,11 @@
+$primary: #93d1e0;
+$secondary: #184752;
+$light: #dde4e5;
+$dark: #0a1c21;
+
+$font-family-base: "FreightSans Pro";
+
+$navbar-dark-color: $light;
+$navbar-dark-hover-color: $primary;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
