@@ -8,7 +8,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 const Header = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg" className={styles.mainNav}>
+      <Navbar variant="dark" expand="lg" className={styles.mainNav}>
         <Container>
           <Link href="/" passHref>
             <Navbar.Brand className={`cortado ${styles.styngBrand}`}>
