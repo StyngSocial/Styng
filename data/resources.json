@@ -1,0 +1,171 @@
+[
+  {
+    "key": "a1",
+    "name": "Documentaries",
+    "icon": "faVideo",
+    "action": "collapse-docs",
+    "content": [
+      {
+        "key": "d1",
+        "title": "Social Dilemma",
+        "credit": "Tristan Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      },
+      {
+        "key": "d2",
+        "title": "Duliba Dilemma",
+        "credit": "D's Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      },
+      {
+        "key": "d3",
+        "title": "Social Dilemma",
+        "credit": "Tristan Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      },
+      {
+        "key": "d4",
+        "title": "Duliba Dilemma",
+        "credit": "D's Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      }
+    ]
+  },
+  {
+    "key": "a2",
+    "name": "Videos",
+    "icon": "faYoutube",
+    "action": "collapse-videos",
+    "content": [
+      {
+        "key": "v1",
+        "title": "Social Dilemma",
+        "credit": "Tristan Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      },
+      {
+        "key": "v2",
+        "title": "Duliba Dilemma",
+        "credit": "D's Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      }
+    ]
+  },
+  {
+    "key": "a3",
+    "name": "Movies",
+    "icon": "faFilm",
+    "action": "collapse-movies",
+    "content": [
+      {
+        "key": "m1",
+        "title": "Social Dilemma",
+        "credit": "Tristan Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      },
+      {
+        "key": "m2",
+        "title": "Duliba Dilemma",
+        "credit": "D's Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      }
+    ]
+  },
+  {
+    "key": "a4",
+    "name": "Articles",
+    "icon": "faNewspaper",
+    "action": "collapse-articles",
+    "content": [
+      {
+        "key": "ar1",
+        "title": "Social Dilemma",
+        "credit": "Tristan Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      },
+      {
+        "key": "ar2",
+        "title": "Duliba Dilemma",
+        "credit": "D's Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      }
+    ]
+  },
+  {
+    "key": "a5",
+    "name": "Books",
+    "icon": "faBook",
+    "action": "collapse-books",
+    "content": [
+      {
+        "key": "b1",
+        "title": "Social Dilemma",
+        "credit": "Tristan Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      },
+      {
+        "key": "b2",
+        "title": "Duliba Dilemma",
+        "credit": "D's Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      }
+    ]
+  },
+
+  {
+    "key": "a6",
+    "name": "Podcasts",
+    "icon": "faPodcast",
+    "action": "collapse-podcasts",
+    "content": [
+      {
+        "key": "p1",
+        "title": "Social Dilemma",
+        "credit": "Tristan Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      },
+      {
+        "key": "p2",
+        "title": "Duliba Dilemma",
+        "credit": "D's Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      }
+    ]
+  },
+  {
+    "key": "a7",
+    "name": "Organizations",
+    "icon": "faUsers",
+    "action": "collapse-orgs",
+    "content": [
+      {
+        "key": "o1",
+        "title": "Social Dilemma",
+        "credit": "Tristan Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      },
+      {
+        "key": "o2",
+        "title": "Duliba Dilemma",
+        "credit": "D's Harris",
+        "description": "Netflix",
+        "link": "google.com"
+      }
+    ]
+  }
+]
