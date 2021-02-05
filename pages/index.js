@@ -146,7 +146,7 @@ export default function Home() {
             </p>
 
             <a className="btn btn-primary btn-md disabled" type="button">
-              Realeasing in April
+              Releasing in April
             </a>
           </Col>
         </Row>
