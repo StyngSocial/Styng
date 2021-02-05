@@ -146,7 +146,7 @@ export default function Home() {
             </p>
 
             <a className="btn btn-primary btn-md disabled" type="button">
-              Releasing in April
+              Whitepaper
             </a>
           </Col>
         </Row>
