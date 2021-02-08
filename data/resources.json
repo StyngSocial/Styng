@@ -15,24 +15,17 @@
       },
       {
         "key": "d2",
-        "title": "Duliba Dilemma",
-        "credit": "D's Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "Plugged In",
+        "credit": "Richard Grannon",
+        "description": "Plugged In explores how social media and smart phone usage has an effect on our younger generations, those who are now born into a world technologically ready and know nothing else - and how hard it is to remove this element from their lives in these modern times. It looks into the design of social media being a purposeful tool used to keep people hooked in, taken away from face to face reactions and how the attitudes towards people through these mediums have become darker.",
+        "link": "https://www.imdb.com/title/tt9768966/?ref_=tt_mv_close"
       },
       {
         "key": "d3",
-        "title": "Social Dilemma",
-        "credit": "Tristan Harris",
-        "description": "Netflix",
-        "link": "google.com"
-      },
-      {
-        "key": "d4",
-        "title": "Duliba Dilemma",
-        "credit": "D's Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "The Great Hack",
+        "credit": "Karim Amer, Jehane Noujaim",
+        "description": "Data has surpassed oil as the world’s most valuable asset. It’s being weaponized to wage cultural and political warfare. People everywhere are in a battle for control of our most intimate personal details. From award-winning filmmakers Karim Amer and Jehane Noujaim, THE GREAT HACK uncovers the dark world of data exploitation with astounding access to the personal journeys of key players on different sides of the explosive Cambridge Analytica/Facebook data scandal.",
+        "link": "https://www.thegreathack.com/#the-film"
       }
     ]
   },
@@ -44,18 +37,46 @@
     "action": "collapse-videos",
     "content": [
       {
+        "key": "v5",
+        "title": "How a handful of tech companies control billions of minds every day",
+        "credit": "Tristan Harris | TED",
+        "description": "A handful of people working at a handful of tech companies steer the thoughts of billions of people every day, says design thinker Tristan Harris. From Facebook notifications to Snapstreaks to YouTube autoplays, they're all competing for one thing: your attention. Harris shares how these companies prey on our psychology for their own profit and calls for a design renaissance in which our tech instead encourages us to live out the timeline we want.",
+        "link": "https://www.ted.com/talks/tristan_harris_how_a_handful_of_tech_companies_control_billions_of_minds_every_day#t-1008536"
+      },
+      {
+        "key": "v4",
+        "title": "What exactly is Web3?",
+        "credit": "Juan Benet | Web3 Foundation",
+        "description": "Juan Benet, Founder & CEO of Protocol Labs, talks about what Web3 is and how it is a part of a larger movement going on in the Internet in which humanity is going from a pre-computing civilization to a post-computing civilization.",
+        "link": "https://www.youtube.com/watch?v=l44z35vabvA&feature=emb_title"
+      },
+      {
+        "key": "v6",
+        "title": "How better tech could protect us from distraction",
+        "credit": "Tristan Harris | TED",
+        "description": "How often does technology interrupt us from what we really mean to be doing? At work and at play, we spend a startling amount of time distracted by pings and pop-ups -- instead of helping us spend our time well, it often feels like our tech is stealing it away from us. Design thinker Tristan Harris offers thoughtful new ideas for technology that creates more meaningful interaction. He asks: \"What does the future of technology look like when you're designing for the deepest human values?",
+        "link": "https://www.ted.com/talks/tristan_harris_how_better_tech_could_protect_us_from_distraction#t-883765"
+      },
+      {
         "key": "v1",
-        "title": "Social Dilemma",
-        "credit": "Tristan Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "Why privacy matters",
+        "credit": "Glenn Greenwald",
+        "description": "Glenn Greenwald was one of the first reporters to see — and write about — the Edward Snowden files, with their revelations about the United States' extensive surveillance of private citizens. In this searing talk, Greenwald makes the case for why you need to care about privacy, even if you’re “not doing anything you need to hide.",
+        "link": "https://www.youtube.com/watch?v=pcSlowAhvUk&feature=emb_title"
       },
       {
         "key": "v2",
-        "title": "Duliba Dilemma",
-        "credit": "D's Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "The Future of Your Personal Data - Privacy vs Monetization",
+        "credit": "Stuart Lacey | TEDx Talks",
+        "description": "Big data is big business and as value is created from customer insight - but, where is the moral line? What happens when companies cross that line? What if consumers could flip the equation to offer their data directly to the companies they trust? The future could be customer monetized data.",
+        "link": "https://www.youtube.com/watch?v=JIo-V0beaBw&feature=emb_title"
+      },
+      {
+        "key": "v3",
+        "title": "Edward Snowden",
+        "credit": "The Joe Rogan Experience",
+        "description": "Edward Snowden is an American whistleblower who copied and leaked highly classified information from the National Security Agency in 2013 when he was a Central Intelligence Agency employee and subcontractor.",
+        "link": "https://www.youtube.com/watch?v=efs3QRr8LWw&feature=emb_title"
       }
     ]
   },
@@ -68,17 +89,10 @@
     "content": [
       {
         "key": "m1",
-        "title": "Social Dilemma",
-        "credit": "Tristan Harris",
-        "description": "Netflix",
-        "link": "google.com"
-      },
-      {
-        "key": "m2",
-        "title": "Duliba Dilemma",
-        "credit": "D's Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "Snowden",
+        "credit": "Oliver Stone",
+        "description": "The NSA's illegal surveillance techniques are leaked to the public by one of the agency's employees, Edward Snowden, in the form of thousands of classified documents distributed to the press.",
+        "link": "https://www.imdb.com/title/tt3774114/?ref_=fn_al_tt_1"
       }
     ]
   },
@@ -91,17 +105,17 @@
     "content": [
       {
         "key": "ar1",
-        "title": "Social Dilemma",
-        "credit": "Tristan Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "How Web 3.0 And Cryptocurrencies Transform The Economy",
+        "credit": "Roger Huang | Forbes",
+        "description": "",
+        "link": "https://www.forbes.com/sites/rogerhuang/2020/09/21/how-web-30-and-cryptocurrencies-transform-the-economy/?utm_campaign=forbes&utm_source=twitter&utm_medium=social&utm_term=Carrie/&sh=3256fc92459e"
       },
       {
         "key": "ar2",
-        "title": "Duliba Dilemma",
-        "credit": "D's Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "A Declaration of the Independence of Cyberspace",
+        "credit": "John Perry Barlow",
+        "description": "",
+        "link": "https://www.eff.org/cyberspace-independence"
       }
     ]
   },
@@ -114,17 +128,17 @@
     "content": [
       {
         "key": "b1",
-        "title": "Social Dilemma",
-        "credit": "Tristan Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "Exploding Data",
+        "credit": "Michael Chertoff",
+        "description": "In this bracing book, Michael Chertoff makes clear that our laws and policies surrounding the protection of personal information, written for an earlier time, need to be completely overhauled in the Internet era. On the one hand, the collection of data―more widespread by business than by government, and impossible to stop―should be facilitated as an ultimate protection for society. On the other, standards under which information can be inspected, analyzed, or used must be significantly tightened. In offering his compelling call for action, Chertoff argues that what is at stake is not so much the simple loss of privacy, which is almost impossible to protect, but of individual autonomy―the ability to make personal choices free of manipulation or coercion. Offering colorful stories over many decades that illuminate the three periods of data gathering we have experienced, Chertoff explains the complex legalities surrounding issues of data collection and dissemination today, and charts a path that balances the needs of government, business, and individuals alike.",
+        "link": "https://www.amazon.com/Exploding-Data-Reclaiming-Security-Digital/dp/0802127932"
       },
       {
         "key": "b2",
-        "title": "Duliba Dilemma",
-        "credit": "D's Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "Ten Arguments for Deleting Your Social Media Accounts",
+        "credit": "Jaron Lanier",
+        "description": "Lanier’s reasons for freeing ourselves from social media’s poisonous grip include its tendency to bring out the worst in us, to make politics terrifying, to trick us with illusions of popularity and success, to twist our relationship with the truth, to disconnect us from other people even as we are more “connected” than ever, to rob us of our free will with relentless targeted ads. How can we remain autonomous in a world where we are under continual surveillance and are constantly being prodded by algorithms run by some of the richest corporations in history that have no way of making money other than being paid to manipulate our behavior? How could the benefits of social media possibly outweigh the catastrophic losses to our personal dignity, happiness, and freedom? Lanier remains a tech optimist, so while demonstrating the evil that rules social media business models today, he also envisions a humanistic setting for social networking that can direct us toward a richer and fuller way of living and connecting with our world.",
+        "link": "https://www.amazon.com/Arguments-Deleting-Social-Media-Accounts/dp/125019668X"
       }
     ]
   },
@@ -138,17 +152,10 @@
     "content": [
       {
         "key": "p1",
-        "title": "Social Dilemma",
-        "credit": "Tristan Harris",
-        "description": "Netflix",
-        "link": "google.com"
-      },
-      {
-        "key": "p2",
-        "title": "Duliba Dilemma",
-        "credit": "D's Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "Your Undivided Attention",
+        "credit": "Center for Humane Technology",
+        "description": "In this podcast from the Center for Humane Technology, co-hosts Tristan Harris and Aza Raskin expose how social media’s race for attention manipulates our choices, breaks down truth, and destabilizes our real-world communities.",
+        "link": "https://www.humanetech.com/podcast"
       }
     ]
   },
@@ -161,17 +168,10 @@
     "content": [
       {
         "key": "o1",
-        "title": "Social Dilemma",
-        "credit": "Tristan Harris",
-        "description": "Netflix",
-        "link": "google.com"
-      },
-      {
-        "key": "o2",
-        "title": "Duliba Dilemma",
-        "credit": "D's Harris",
-        "description": "Netflix",
-        "link": "google.com"
+        "title": "Data Dividend Project",
+        "credit": "",
+        "description": "Take control of your personal data.If companies are profiting from it, you should get paid for it.",
+        "link": "https://datadividendproject.com/"
       }
     ]
   }
