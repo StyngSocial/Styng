@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 
-import Concept from "../assets/styng-concept.png";
+import Concept from "../assets/styng-social-concept.png";
 import Web2 from "../assets/web2.png";
 import Web3 from "../assets/web3.png";
 import ExecSum from "../assets/icons/executive-summary.svg";
