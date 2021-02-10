@@ -1,9 +1,21 @@
 import Head from "next/head";
-import { Accordion, Card, Button } from "react-bootstrap";
+import { Accordion } from "react-bootstrap";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faVideo,
+  faFilm,
+  faPlay,
+  faNewspaper,
+  faBook,
+  faBuilding,
+  faMicrophone,
+} from "@fortawesome/free-solid-svg-icons";
 import styles from "./AccordionItem.module.scss";
 
 const AccordionItem = (category) => {
-  const { action, name, children, section } = category;
+  const { name, children, section, icon } = category;
+
   return (
     <>
       <Head>
@@ -15,6 +27,11 @@ const AccordionItem = (category) => {
             eventKey={section}
             className={`accordion-button collapsed ${styles.accordionHeader}`}
           >
+            {console.log(icon)}
+            <FontAwesomeIcon
+              icon={faIcon(icon)}
+              className={styles.icon}
+            ></FontAwesomeIcon>
             {name}
           </Accordion.Toggle>
         </div>
@@ -26,6 +43,27 @@ const AccordionItem = (category) => {
       </div>
     </>
   );
+};
+
+const faIcon = (i) => {
+  switch (i) {
+    case "faVideo":
+      return faVideo;
+    case "faFilm":
+      return faFilm;
+    case "faPlay":
+      return faPlay;
+    case "faNewspaper":
+      return faNewspaper;
+    case "faBook":
+      return faBook;
+    case "faBuilding":
+      return faBuilding;
+    case "faMicrophone":
+      return faMicrophone;
+    default:
+      return "";
+  }
 };
 
 export default AccordionItem;

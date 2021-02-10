@@ -4,7 +4,6 @@
     "name": "Documentaries",
     "icon": "faVideo",
     "section": "docs",
-    "action": "collapse-docs",
     "content": [
       {
         "key": "d1",
@@ -32,9 +31,8 @@
   {
     "key": "a2",
     "name": "Videos",
-    "icon": "faYoutube",
+    "icon": "faPlay",
     "section": "videos",
-    "action": "collapse-videos",
     "content": [
       {
         "key": "v5",
@@ -85,7 +83,6 @@
     "name": "Movies",
     "icon": "faFilm",
     "section": "movies",
-    "action": "collapse-movies",
     "content": [
       {
         "key": "m1",
@@ -101,7 +98,6 @@
     "name": "Articles",
     "icon": "faNewspaper",
     "section": "articles",
-    "action": "collapse-articles",
     "content": [
       {
         "key": "ar1",
@@ -124,7 +120,6 @@
     "name": "Books",
     "icon": "faBook",
     "section": "books",
-    "action": "collapse-books",
     "content": [
       {
         "key": "b1",
@@ -146,9 +141,8 @@
   {
     "key": "a6",
     "name": "Podcasts",
-    "icon": "faPodcast",
+    "icon": "faMicrophone",
     "section": "podcasts",
-    "action": "collapse-podcasts",
     "content": [
       {
         "key": "p1",
@@ -162,9 +156,8 @@
   {
     "key": "a7",
     "name": "Organizations",
-    "icon": "faUsers",
+    "icon": "faBuilding",
     "section": "orgs",
-    "action": "collapse-orgs",
     "content": [
       {
         "key": "o1",
