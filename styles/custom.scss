@@ -18,4 +18,8 @@ $accordion-button-focus-box-shadow: none;
 $card-bg: $dark;
 $card-color: $light;
 
+// Modal Styling
+$modal-content-color: $light;
+$modal-content-bg: $tint;
+$modal-header-border-color: $tint;
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

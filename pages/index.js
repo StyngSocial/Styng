@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
@@ -8,9 +10,20 @@ import Web3 from "../assets/web3.png";
 import ExecSum from "../assets/icons/executive-summary.svg";
 import Whitepaper from "../assets/icons/whitepaper.svg";
 
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
+
+import Subscribe from "../components/Subscribe";
 
 export default function Home() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => {
+    setShow(false);
+  };
+  const handleOpen = () => {
+    setShow(true);
+  };
+
   return (
     <>
       <Head>
@@ -30,7 +43,7 @@ export default function Home() {
               for using and engaging on the platform.
             </p>
             <hr className="my-4" />
-            <Button variant="primary" size="lg" href="mailto:ben@styng.social">
+            <Button variant="primary" size="lg" onClick={handleOpen}>
               Sign Up
             </Button>
           </Col>
@@ -151,6 +164,24 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
+      <Modal show={show} onHide={handleClose} centered>
+        <Modal.Header>
+          <Modal.Title>Sign up for Styng Social's Newsletter!</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form>
+            <Form.Group controlId="exampleForm.ControlInput1">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control type="email" placeholder="Enter email" />
+            </Form.Group>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" onClick={handleClose}>
+            Save Changes
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
   );
 }
