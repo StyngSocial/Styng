@@ -80,7 +80,7 @@ export default function Home() {
       </Container>
       <Container className={styles.solutions} id="about">
         <Row className="justify-content-center align-items-evenly">
-          <Col lg={6} md={12}>
+          <Col lg={5} md={12} className="me-3">
             <h2 className="primary-color">Social media is exploitive</h2>
             <hr className="my-4" />
             <li className="h4">Broken Business Model</li>
@@ -101,7 +101,7 @@ export default function Home() {
               chambers, stripping the ability to empathize and communicate.
             </p>
           </Col>
-          <Col lg={6} md={12}>
+          <Col lg={5} md={12} className="ms-3">
             <h2 className={`primary-color ${styles.ourSolution}`}>
               Our solution
             </h2>
@@ -131,7 +131,7 @@ export default function Home() {
       </Container>
       <Container className={styles.business}>
         <Row className="jusitfy-content-center">
-          <Col lg={12}>
+          <Col lg={10} className="mx-auto">
             <h2 className="primary-color">Breaking the relationship</h2>
             <hr className="my-4" />
             <p>
@@ -156,7 +156,7 @@ export default function Home() {
       </Container>
       <Container className={styles.research} id="whitepaper">
         <Row className="justify-content-evenly">
-          <Col lg={5} md={12} className="text-center p-2 position-relative">
+          <Col lg={5} md={12} className="text-center mx-auto position-relative">
             <Image src={ExecSum} height={75} width={75}></Image>
             <h2 className="primary-color">Executive Summary</h2>
             <hr className="my-4" />
@@ -175,15 +175,14 @@ export default function Home() {
               Executive Summary
             </a>
           </Col>
-          <Col lg={5} md={12} className="text-center p-2 position-relative">
+          <Col lg={5} md={12} className="text-center mx-auto position-relative">
             <Image src={Whitepaper} height={75} width={75}></Image>
             <h2 className="primary-color">Whitepaper</h2>
             <hr className="my-4" />
             <p>
               A whitepaper is a technical document describing how Styng, the
-              platform, works. This provides investors a detailed description of
-              the Styng platform. It will include token economic information,
-              token distribution, implementation, and execution.
+              platform, works. It will include token economic information, token
+              distribution, implementation, and execution.
             </p>
 
             <a
