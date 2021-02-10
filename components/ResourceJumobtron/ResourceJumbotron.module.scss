@@ -1,11 +1,19 @@
 .resourceJumbotron {
   margin-top: 50px;
   margin-bottom: 75px;
-  padding-bottom: 50px;
+  text-align: justify;
   display: flex;
   color: #dde4e5;
-}
-
-.resourceJumbotron p {
-  font-size: 1.5rem;
+  p {
+    font-size: 1.5rem;
+  }
+  h1 {
+    color: #93d1e0;
+  }
+  @media (max-width: 992px) {
+    padding: 0 20px;
+    p {
+      font-size: 1.25rem;
+    }
+  }
 }

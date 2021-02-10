@@ -10,7 +10,10 @@ const resources = () => {
   return (
     <>
       <ResourceJumbotron />
-      <Accordion className="mx-auto col-lg-10">
+      <Accordion
+        className="mx-auto col-lg-10"
+        style={{ "margin-bottom": "100px" }}
+      >
         {resourceData.map((category) => {
           let content = category.content;
           return (
