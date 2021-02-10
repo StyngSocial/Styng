@@ -12,8 +12,6 @@ import Whitepaper from "../assets/icons/whitepaper.svg";
 
 import { Container, Row, Col, Button, Modal, Form } from "react-bootstrap";
 
-import Subscribe from "../components/Subscribe";
-
 export default function Home() {
   const [show, setShow] = useState(false);
   const [email, setEmail] = useState("");
@@ -104,7 +102,9 @@ export default function Home() {
             </p>
           </Col>
           <Col lg={6} md={12}>
-            <h2 className="primary-color">Our solution</h2>
+            <h2 className={`primary-color ${styles.ourSolution}`}>
+              Our solution
+            </h2>
             <hr className="my-4" />
             <p>
               Styng is flipping the business model of social media. Using
@@ -156,7 +156,7 @@ export default function Home() {
       </Container>
       <Container className={styles.research} id="whitepaper">
         <Row className="justify-content-evenly">
-          <Col lg={4} md={12} className="text-center">
+          <Col lg={5} md={12} className="text-center p-2 position-relative">
             <Image src={ExecSum} height={75} width={75}></Image>
             <h2 className="primary-color">Executive Summary</h2>
             <hr className="my-4" />
@@ -167,7 +167,7 @@ export default function Home() {
               model, and projections.
             </p>
             <a
-              className="btn btn-primary btn-md disabled"
+              className="btn btn-primary btn-md disabled position-absolute bottom-0 translate-middle"
               href="../assets/papers/Business Plan.pdf"
               target="_blank"
               id="execSum"
@@ -175,7 +175,7 @@ export default function Home() {
               Executive Summary
             </a>
           </Col>
-          <Col lg={4} md={12} className="text-center whitepaper">
+          <Col lg={5} md={12} className="text-center p-2 position-relative">
             <Image src={Whitepaper} height={75} width={75}></Image>
             <h2 className="primary-color">Whitepaper</h2>
             <hr className="my-4" />
@@ -186,7 +186,10 @@ export default function Home() {
               token distribution, implementation, and execution.
             </p>
 
-            <a className="btn btn-primary btn-md disabled" type="button">
+            <a
+              className="btn btn-primary btn-md disabled position-absolute bottom-0 translate-middle"
+              type="button"
+            >
               Whitepaper
             </a>
           </Col>

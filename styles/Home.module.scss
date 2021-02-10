@@ -5,24 +5,23 @@
   color: #93d1e0;
   margin-top: 150px;
   p {
+    font-size: 1.5rem;
     color: #dde4e5;
+    text-align: justify;
   }
   @media (max-width: 992px) {
-    margin-top: 75px;
+    margin-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
+    p {
+      font-size: 1.35rem;
+    }
   }
 }
 
 .landing {
   margin-top: 75px;
 
-  p {
-    font-size: 1.5rem;
-  }
-  img {
-    height: 500px;
-  }
   @media (max-width: 992px) {
     text-align: center;
     margin-top: 10px;
@@ -35,11 +34,8 @@
         font-size: 2.5rem;
       }
     }
-    a {
-      margin-bottom: 25px;
-    }
-    p {
-      font-size: 1.25;
+    button {
+      margin-bottom: 35px;
     }
   }
 }
@@ -48,51 +44,35 @@
   li {
     list-style: none;
   }
-
-  p {
-    font-size: 1.25rem;
+  @media (max-width: 992px) {
+    .ourSolution {
+      margin-top: 50px;
+    }
   }
 }
 
 .business {
-  p {
-    font-size: 1.5rem;
-    @media (max-width: 992px) {
-      font-size: 1.25rem;
-    }
-  }
   img {
     height: 500px;
     @media (max-width: 575px) {
       height: 300px;
     }
   }
-
   .webGen {
     margin-top: 50px;
   }
 }
 
 .research {
-  margin-bottom: 200px;
-  .icon {
-    height: 75px;
-    margin-bottom: 25px;
+  margin-bottom: 150px;
+  a {
+    padding: 10px;
+    width: 150px;
   }
   p {
-    font-size: 1.25rem;
-  }
-  #execSum {
-    @media (max-width: 992px) {
-      margin-top: 0px;
-    }
-  }
-  #whitepaper {
-    @media (max-width: 992px) {
-      margin-top: 75px;
-    }
+    margin-bottom: 100px;
   }
   @media (max-width: 992px) {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 }
