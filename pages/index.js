@@ -166,14 +166,13 @@ export default function Home() {
               objective. It contains competitive analysis, inspiration, business
               model, and projections.
             </p>
-            <a
-              className="btn btn-primary btn-md disabled position-absolute bottom-0 translate-middle"
-              href="../assets/papers/Business Plan.pdf"
-              target="_blank"
-              id="execSum"
+            <Button
+              variant="primary"
+              disabled
+              className="position-absolute bottom-0 translate-middle"
             >
               Executive Summary
-            </a>
+            </Button>
           </Col>
           <Col lg={5} md={12} className="text-center mx-auto position-relative">
             <Image src={Whitepaper} height={75} width={75}></Image>
@@ -185,12 +184,13 @@ export default function Home() {
               distribution, implementation, and execution.
             </p>
 
-            <a
-              className="btn btn-primary btn-md disabled position-absolute bottom-0 translate-middle"
-              type="button"
+            <Button
+              variant="primary"
+              disabled
+              className="position-absolute bottom-0 translate-middle"
             >
               Whitepaper
-            </a>
+            </Button>
           </Col>
         </Row>
       </Container>
