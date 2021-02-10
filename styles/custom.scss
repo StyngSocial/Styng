@@ -22,4 +22,9 @@ $card-color: $light;
 $modal-content-color: $light;
 $modal-content-bg: $tint;
 $modal-header-border-color: $tint;
+$input-color: $dark !important;
+
+$form-label-margin-bottom: 0.75rem;
+$form-label-font-size: 1.25rem;
+$form-label-color: #dee2e6;
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

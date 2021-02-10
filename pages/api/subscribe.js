@@ -1,5 +1,5 @@
 export default async (req, res) => {
-  const email = "media@styng.social";
+  const { email } = req.body;
 
   if (!email) {
     return res.status(400).json({ error: "Email is required" });
@@ -7,12 +7,10 @@ export default async (req, res) => {
 
   try {
     const LIST_ID = process.env.MAILCHIMP_LIST_ID;
-    const API_KEY = process.env.MAILCHIP_API_KEY;
+    const API_KEY = process.env.MAILCHIMP_API_KEY;
     const DATACENTER = "us7";
 
-    // const base64APIKey = Buffer.from(`anystring:${API_KEY}`).toString("base64");
-
-    const url = `https://us7.api.mailchimp.com/3.0/lists/a24eeb3098/members`;
+    const url = `https://${DATACENTER}.api.mailchimp.com/3.0/lists/${LIST_ID}/members`;
 
     const data = {
       email_address: email,
@@ -21,7 +19,7 @@ export default async (req, res) => {
     const response = await fetch(url, {
       body: JSON.stringify(data),
       headers: {
-        Authorization: `apikey da3fdde3b45023d13e0ad5c9563c122b-us7`,
+        Authorization: `apikey ${API_KEY}`,
         "Content-Type": "application/json",
       },
       method: "POST",
@@ -29,6 +27,8 @@ export default async (req, res) => {
     if (response.status >= 400) {
       return res.status(400).json({
         subscribed: `There was an error subscribing to the newsletter. Email Styng Social at ben@styng.social and we'll add you to the list.`,
+        url: `${url}`,
+        api_key: `${API_KEY}`,
         status: response.status,
         text: response.statusText,
         trailer: response.trailer,

@@ -16,12 +16,40 @@ import Subscribe from "../components/Subscribe";
 
 export default function Home() {
   const [show, setShow] = useState(false);
+  const [email, setEmail] = useState("");
 
-  const handleClose = () => {
-    setShow(false);
+  const handleModal = () => {
+    setShow(!show);
   };
-  const handleOpen = () => {
-    setShow(true);
+
+  const handleSignUp = async (e) => {
+    e.preventDefault();
+    console.log(`email: ${email}`);
+    setEmail("");
+    setShow(false);
+    const res = await fetch("/api/subscribe", {
+      body: JSON.stringify({
+        email: email,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+    });
+    if (res.status >= 400) {
+      let errorEmail = "ben@styng.social";
+      alert(
+        `Signing up for email updates failed.\n\nEmail ${errorEmail} and tell him to fix it.`
+      );
+    } else {
+      alert(
+        `Thank you for signing up to receive updates from Styng Social!\n\nEmail: ${email}`
+      );
+    }
+  };
+
+  const handleInput = (e) => {
+    setEmail(e.target.value);
   };
 
   return (
@@ -43,7 +71,7 @@ export default function Home() {
               for using and engaging on the platform.
             </p>
             <hr className="my-4" />
-            <Button variant="primary" size="lg" onClick={handleOpen}>
+            <Button variant="primary" size="lg" onClick={handleModal}>
               Sign Up
             </Button>
           </Col>
@@ -164,23 +192,29 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <Modal show={show} onHide={handleClose} centered>
+      <Modal show={show} onHide={handleModal} centered>
         <Modal.Header>
-          <Modal.Title>Sign up for Styng Social's Newsletter!</Modal.Title>
+          <Modal.Title>
+            Sign up to receive updates from Styng Social
+          </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form>
-            <Form.Group controlId="exampleForm.ControlInput1">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
+          <Form onSubmit={handleSignUp}>
+            <Form.Group controlId="emailSignUp">
+              <Form.Label>Email</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder=""
+                value={email}
+                onChange={handleInput}
+              />
+              <hr className="my-4" />
+              <Button variant="primary" type="submit">
+                Save Changes
+              </Button>
             </Form.Group>
           </Form>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
       </Modal>
     </>
   );
