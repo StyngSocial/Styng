@@ -8,7 +8,7 @@ export default async (req, res) => {
   try {
     const LIST_ID = process.env.MAILCHIMP_LIST_ID;
     const API_KEY = process.env.MAILCHIMP_API_KEY;
-    const DATACENTER = "us7";
+    const DATACENTER = process.env.DATACENTER;
 
     const url = `https://${DATACENTER}.api.mailchimp.com/3.0/lists/${LIST_ID}/members`;
 
